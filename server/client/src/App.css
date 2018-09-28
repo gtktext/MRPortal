@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.myClass {
+    font-family: 'Roboto', sans-serif;
+
+}
+.moveDown{
+  margin-top: 75px;
+  text-align: left;
+}
+
+footer{
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+/*    background-color: green;
+*/    color: white;
+    text-align: center;
+    height:50px;
+}
+
+
+
+/*These styles will override Bootstrap 4*/
+
+h2 {font-size:1.9em;
+	color:green;
+	margin-left: 20%;
+	}
+
+h3 {
+	font-size:1.5em;
+	color:green;
+}
+
+#tabFormat {
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+	border-width: 50px;
+}
+
+.valign {
+	width: 50px;
+}
+
+.pm {
+	margin-left: 20%;
+}
+
+.container {
+	background-color: lightgray;
+	padding: 40px;
+	border-radius: 20px;
+}
+
+#searchButton {
+	padding: 10px 30px;
+	font-size: 1.3em;
+	font-weight: 600;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	
+}
+
+#twidth {
+	width: 65%;
+	margin: 0 17.5%;
+}
+
+.nav-tabs
+ {
+   border-color:#1A3E5E;
+   width:60%;
+ }
+
+.nav-tabs > li a { 
+    border: 1px solid #1A3E5E;
+    background-color:#2F71AB; 
+    color:#fff;
+    margin-right: 5px;
+    border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+    }
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover{
+    background-color:#D6E6F3;
+    color:#000;
+    border: 1px solid #1A3E5E;
+    border-bottom-color: transparent;
+    }
+
+.nav-tabs > li > a:hover{
+  background-color: #D6E6F3 !important;
+    border-radius: 5px;
+    color:#000;
+
+} 
+
+.tab-pane {
+    border:solid 1px #1A3E5E;
+    border-top: 0; 
+    width:100%;
+    background-color:#D6E6F3;
+    padding:5px;
+
+}
+.input-group{
+  width: 50%;
+}
